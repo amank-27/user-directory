@@ -39,7 +39,7 @@ function App() {
         className="search-input"
       />
 
-      {loading && <p>Loading users...</p>}
+      {loading && <p id='loading'>Loading users...</p>}
       {error && <p className="error">{error}</p>}
 
       <div className="user-list">
